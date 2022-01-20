@@ -33,7 +33,7 @@ public class MyRestController {
         return credit;
     }
 
-    @GetMapping("/credits/showPayments/{id}")
+    @GetMapping("/credits/payments/{id}")
     public List<Payment> showPaymentsOfCredit(@PathVariable Integer id) {
         List<Payment> paymentsByCreditId = creditService.getPaymentsByCreditId(id);
         if (paymentsByCreditId == null) {

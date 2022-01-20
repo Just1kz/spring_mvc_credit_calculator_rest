@@ -35,8 +35,8 @@ Interface in my Application
 ![ScreenShot](./src/main/java/com/antonbelykh/spring/spring_mvc/rest/images/calculate.png)
 ![ScreenShot](./src/main/java/com/antonbelykh/spring/spring_mvc/rest/images/calculateResult.png)
 
-- Show payments without credit body "/credits/showPayments/{id}" - HTTP.GET
-- ![ScreenShot](./src/main/java/com/antonbelykh/spring/spring_mvc/rest/images/paymentsForCreditId.png)
+- Show payments without credit body "/credits/payments/{id}" - HTTP.GET
+- ![ScreenShot](./src/main/java/com/antonbelykh/spring/spring_mvc/rest/images/payments.png)
 
 - Delete Credit with schedule Payments "/credits/{id}" - HTTP.DELETE. Delete credit with id = 1 and getAll
 ![ScreenShot](./src/main/java/com/antonbelykh/spring/spring_mvc/rest/images/delete.png)
